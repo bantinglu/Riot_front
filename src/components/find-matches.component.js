@@ -73,25 +73,6 @@ function listItems(items){
     }
 
     return itemslist;
-
-    
-    // Create the list element:
-   /* var list = document.createElement('ul');
-
-    for(var a in items){
-        // Create the list item:
-        var item = document.createElement('li');
-
-        // Set its contents:
-        item.appendChild(document.createTextNode(items[a]));
-
-        // Add it to the list:
-        list.appendChild(item);
-    }
-
-    // Finally, return the constructed list:
-    return list;*/
-    
 }
 export default class CreateUser extends Component {
     constructor(props) {
