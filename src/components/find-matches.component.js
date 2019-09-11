@@ -110,7 +110,7 @@ export default class CreateUser extends Component {
 
         console.log(this.state.username);
 
-        axios.get('http://localhost:5000/search/' + this.state.username)
+        axios.get('https://riotback.herokuapp.com/search/' + this.state.username)
         .then(res => {
             console.log(res.data);
             this.setState({
